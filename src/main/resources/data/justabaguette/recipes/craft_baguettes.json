@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:hay_block"
+    },
+    "4": {
+      "item": "minecraft:hay_block"
+    },
+    "6": {
+      "item": "minecraft:hay_block"
+    }
+  },
+  "result": {
+    "item": "justabaguette:baguette",
+    "count": 3
+  }
+}
