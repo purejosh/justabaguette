@@ -8,6 +8,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import net.minecraft.world.item.crafting.RepairItemRecipe;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.CraftingContainer;
+import net.minecraft.core.RegistryAccess;
 
 import java.util.ArrayList;
 
@@ -16,7 +17,7 @@ import com.google.common.collect.Lists;
 @Mixin(RepairItemRecipe.class)
 public abstract class JustabaguetteModRepairItemRecipeMixin {
 	@Inject(method = "assemble", at = @At("HEAD"), cancellable = true)
-	public void assemble(CraftingContainer craftingContainer, CallbackInfoReturnable<ItemStack> cir) {
+	public void assemble(CraftingContainer craftingContainer, RegistryAccess registryAccess, CallbackInfoReturnable<ItemStack> cir) {
 		ItemStack itemStack3;
 		ItemStack itemStack;
 		ArrayList<ItemStack> list = Lists.newArrayList();

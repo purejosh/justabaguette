@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "adv_give_baguette_recipe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bread"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "justabaguette:craft_baguette",
+      "justabaguette:craft_baguettes"
+    ]
+  }
+}

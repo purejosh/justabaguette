@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="Custom license"
+
+[[mods]]
+modId="justabaguette"
+version="1.0.0"
+displayName="Just A Baguette"
+credits="Made by purejosh"
+displayURL="https://legacy.curseforge.com/minecraft/mc-mods/just-a-baguette-fabric-forge"
+logoFile="logo.png"
+authors="purejosh"
+description="Adds just one item to the game: A Baguette."
+
+[[dependencies.justabaguette]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

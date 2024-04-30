@@ -4,7 +4,7 @@ Just A Baguette adds literally one item: A Baguette. Why? Why not! 
 
 ## Download
 
-Get the latest download for your mod loader at [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/just-a-baguette-fabric-forge).
+Get the latest download for your mod loader at [CurseForge](https://www.curseforge.com/minecraft/mc-mods/justabaguette) or [Modrinth](https://modrinth.com/mod/justabaguette).
 
 ## Issues or Suggestions
 
