@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "net.purejosh.justabaguette.mixin",
+	"package": "net.purejosh.justabaguette.mixin.client",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
+	"client": [
+		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

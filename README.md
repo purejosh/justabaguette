@@ -1,6 +1,6 @@
 # Just A Baguette
 
-Just A Baguette adds literally one item: A Baguette. Why? Why not! 
+Just A Baguette adds literally one item: A Baguette. Why? Why not!
 
 ## Download
 
@@ -15,5 +15,5 @@ Please open an issue in Github, and choose [Bug](https://github.com/purejosh/jus
 Please join our [Discord](https://discord.com/invite/X6AsDnqex6) for any additional assistance.
 
 ## License
-[MIT-R-NR](https://github.com/purejosh/justabaguette/blob/master/LICENSE.txt)
+[MIT-R-NR](https://github.com/purejosh/justabaguette/blob/1.21/LICENSE)
  
