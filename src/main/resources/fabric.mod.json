@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "justabaguette",
-	"version": "v2.0.0",
+	"version": "${version}",
 	"name": "Just A Baguette",
-	"description": "Adds just one item to the game: A Baguette.",
+	"description": "Adds just one item to the game: A Baguette. Why? Why not!",
 	"authors": [
 		"purejosh"
 	],
@@ -12,6 +12,15 @@
 		"sources": "https://github.com/purejosh/justabaguette",
 		"issues": "https://github.com/purejosh/justabaguette/issues"
 	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/X6AsDnqex6",
+				"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/justabaguette",
+				"modmenu.modrinth": "https://modrinth.com/mod/justabaguette"
+			}
+		}
+	},
 	"license": "MIT-R-NR",
 	"icon": "assets/justabaguette/icon.png",
 	"environment": "*",
@@ -19,20 +28,13 @@
 		"main": [
 			"net.purejosh.justabaguette.JustABaguette"
 		],
-		"client": [
-			"net.purejosh.justabaguette.JustABaguetteClient"
+		"fabric-datagen": [
+			"net.purejosh.justabaguette.JustABaguetteDataGenerator"
 		]
 	},
-	"mixins": [
-		"justabaguette.mixins.json",
-		{
-			"config": "justabaguette.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.21",
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.11",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
